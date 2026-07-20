@@ -107,7 +107,7 @@ export default function Resume() {
                   B.Tech (Computer Engineering)
                 </h3>
                 <p className="text-zinc-400 print:text-zinc-700">
-                  R. C. Patel Institute of Technology, Shirpur – <span className="font-medium text-zinc-300 print:text-zinc-900">CGPA 8.77</span> (up to 5th Semester)
+                  R. C. Patel Institute of Technology, Shirpur – <span className="font-medium text-zinc-300 print:text-zinc-900">CGPA 8.84</span>
                 </p>
               </div>
               <span className="text-zinc-500 print:text-zinc-600 font-medium shrink-0">2023 - 2027</span>

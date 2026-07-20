@@ -8,7 +8,9 @@ export default function Education() {
       degree: "Bachelor of Technology in Computer Engineering",
       period: "2023 - 2027 (Expected Graduation)",
       status: "Fourth Year (Candidacy)",
+      cgpa: "8.84 CGPA",
       details: [
+        "Maintaining a strong academic record with a current CGPA of 8.84.",
         "Focused on data structures, advanced algorithms, and systems engineering.",
         "Active member of departmental coding clusters and tech workshops.",
         "Consistently engaged in designing mock products and software architectures.",
@@ -89,9 +91,16 @@ export default function Education() {
                       <Calendar className="w-3.5 h-3.5" />
                       {item.period}
                     </span>
-                    <span className="inline-block px-2.5 py-0.5 bg-blue-950/30 text-blue-400 text-[10px] font-semibold rounded-full border border-blue-500/20 mt-1.5 w-max sm:ml-auto">
-                      {item.status}
-                    </span>
+                    <div className="flex flex-wrap gap-2 sm:justify-end mt-1.5">
+                      <span className="inline-block px-2.5 py-0.5 bg-blue-950/30 text-blue-400 text-[10px] font-semibold rounded-full border border-blue-500/20 w-max">
+                        {item.status}
+                      </span>
+                      {item.cgpa && (
+                        <span className="inline-block px-2.5 py-0.5 bg-emerald-950/30 text-emerald-400 text-[10px] font-semibold rounded-full border border-emerald-500/20 w-max">
+                          {item.cgpa}
+                        </span>
+                      )}
+                    </div>
                   </div>
                 </div>
 
